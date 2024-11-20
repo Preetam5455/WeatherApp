@@ -15,9 +15,9 @@ const Time= ()=>{
 
 return(
     <>
-    <h1>the current time is {ctime}</h1>
+    <h1>The current time is <i>{ctime}</i></h1>
 
-    <button onClick={updateTime}> click me</button>
+    <button onClick={updateTime}>Click to know Current city time</button>
     </>
 )
 
